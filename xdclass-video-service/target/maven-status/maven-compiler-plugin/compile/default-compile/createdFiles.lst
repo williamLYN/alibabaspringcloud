@@ -1,0 +1,5 @@
+net\xdclass\controller\VideoController.class
+net\xdclass\service\VideoService.class
+net\xdclass\service\VideoServiceImpl.class
+net\xdclass\VideoApplication.class
+net\xdclass\dao\VideoMapper.class

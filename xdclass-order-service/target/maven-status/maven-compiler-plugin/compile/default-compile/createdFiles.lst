@@ -1,0 +1,5 @@
+net\xdclass\service\fallback\VideoServiceFallBack.class
+net\xdclass\service\VideoService.class
+net\xdclass\controller\OrderController.class
+net\xdclass\OrderApplication.class
+net\xdclass\config\XdclassUrlBlockHandler.class
