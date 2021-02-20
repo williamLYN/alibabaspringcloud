@@ -5,10 +5,18 @@ spring:
   application:
     name: xdclass-order-service
 
+  zipkin:
+    base-url: http://192.168.219.130:9411/ #zipkin地址
+    discovery-client-enabled: false  #不用开启服务发现
+  sleuth:
+    sampler:
+      probability: 1.0
+
   cloud:
     nacos:
       discovery:
         server-addr: 192.168.219.130:8848
+
     sentinel:
       transport:
         dashboard: 192.168.219.130:8080

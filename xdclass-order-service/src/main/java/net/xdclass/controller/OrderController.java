@@ -25,6 +25,7 @@ public class OrderController {
     private DiscoveryClient discoveryClient;
 
     @Qualifier("net.xdclass.service.VideoService")
+    @Autowired
     private VideoService videoService;
 
     @RequestMapping("/save")
